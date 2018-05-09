@@ -1,0 +1,28 @@
+/* Style for Control */
+.control {
+	text-align: center;
+	transition: .1s;
+}
+
+.control-hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.control button {
+	color: #202020;
+	border: 2px solid #202020;
+	outline: none;
+	background-color: white;
+	font-family: Consolas;
+	font-size: 1.2rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.control button:hover {
+	color: white;
+	background-color: #202020;
+	border: 2px solid #202020;
+}

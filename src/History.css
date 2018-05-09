@@ -1,0 +1,68 @@
+/* Style for History
+--------------------- */
+
+.history {
+	width: 24vw;
+	height: 50vh;
+	padding: 0 0 20px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.history .title {
+	/*margin: 10px 7px 5px;*/
+	padding: 3px 0;
+	border: 2px solid #202020;
+}
+
+.history .title span {
+	display: inline-block;
+	width: 33%;
+	font-weight: bold;
+}
+
+.placeholder {
+	color: #797979;
+}
+
+.records {
+	height: 90%;
+	overflow-y: auto;
+}
+
+.records .placeholder {
+	width: 80%;
+	margin: 70px auto;
+}
+
+.records .record {
+	margin: 10px 7px 0px;
+}
+
+.record span {
+	display: inline-block;
+	width: 33%;
+}
+
+.record:last-child {
+	color: white;
+	background-color: black;
+	border: 1px solid #202020;
+}
+
+/* Customer Scroll Bar
+------------------------- */
+
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: #202020;
+	width: 3px;
+}

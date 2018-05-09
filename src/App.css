@@ -1,0 +1,38 @@
+main {
+	width: 62vw;
+	margin: 0 auto;
+}
+
+.quick {
+	position: fixed;
+	top: 1vh;
+	left: 1vw;
+	font-size: 0.8rem;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.quick label {
+	padding: 0.5vh 0.5vw;
+	color: #202020;
+	cursor: pointer;
+}
+
+.quick label::before {
+	content: '';
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #202020;
+	margin-right: 3px;
+	transition: .1s;
+}
+
+.debug label::before {
+	background-color: #202020;
+	border: 2px double white;
+}
+
+.quick input{
+	display: none;
+}
