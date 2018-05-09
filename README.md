@@ -2,12 +2,13 @@
 Auto competitions between two Express servers
 
 ## Start
-1. Enter program root directory */guess-competition*
+1. Enter program root directory  
+    `cd /guess-competition`
 
 2. Install dependencies  
     `npm install`
 
-3. Start servers in **two terminals**  
+3. Start servers in **two terminal windows**  
     `npm run alfred`  
     `npm run barbara`  
 
