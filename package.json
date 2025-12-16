@@ -2,14 +2,18 @@
   "name": "part02",
   "version": "1.0.0",
   "description": "exam02",
+  "homepage": "https://hblee12294.github.io/guess-competition",
   "main": "wordlist.js",
   "scripts": {
     "alfred": "node alfred.js",
     "barbara": "node barbara.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:ghpages": "REACT_APP_SIMULATION_MODE=true react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build:ghpages",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +22,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

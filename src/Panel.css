@@ -2,47 +2,50 @@
 -------------------- */
 
 .panel {
-	display: inline-block;
-	width: 25vw;
-	margin: 0 3vw;
-	color: #202020;
+  display: inline-block;
+  width: 25vw;
+  margin: 0 3vw;
+  color: #202020;
 }
 
 .name {
-	width: 20vw;
-	margin: 5px auto;
-	color: #797979;
-	font-size: 1.5rem;
-	font-weight: bold;
+  width: 20vw;
+  margin: 5px auto;
+  color: #797979;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .field {
-	width: 20vw;
-	margin: 5px auto;
-	text-align: left;
+  width: 20vw;
+  margin: 5px auto;
+  text-align: left;
 }
 
 .tag {
-	display: inline-block;
-	width: 10ch;
-	font-weight: bold;
-	vertical-align: middle;
+  display: inline-block;
+  width: 10ch;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 .input {
-	display: inline-block;
-	vertical-align: middle;
-	border-right: .1em solid transparent;
-	width: 5ch;
-	white-space: nowrap;
-	overflow: hidden;
-	animation: typing 1s steps(5, end), caret .2s step-end 5 alternate;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 0.1em solid transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1s steps(5, end), caret 0.2s step-end 5 alternate;
 }
 
 @keyframes typing {
-	from { width:0; }
+  from {
+    width: 0;
+  }
 }
 
 @keyframes caret {
-	50% { border-color: #111; }
+  50% {
+    border-color: #111;
+  }
 }
