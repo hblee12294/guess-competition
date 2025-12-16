@@ -33,6 +33,7 @@
   display: inline-block;
   vertical-align: middle;
   border-right: 0.1em solid transparent;
+  width: 5ch;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 1s steps(5, end), caret 0.2s step-end 5 alternate;
